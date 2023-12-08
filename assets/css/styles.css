@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #212832;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+/* Common */
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+.section__desc {
+  color: #696d76;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66; /* 166.667% */
+}
+.btn {
+  padding: 1.5rem 3rem;
+  border-radius: 0.8rem;
+  background: #7264d6;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  border: none;
+  cursor: pointer;
+}
+/* header */
+.header {
+  padding-top: 42px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+.header__top--left {
+  display: flex;
+  align-items: center;
+}
+.header__nav {
+  margin-left: 7.03rem;
+}
+.header__link {
+  color: #696d76;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  margin-right: 4.8rem;
+}
+.header__link.active {
+  color: #212832;
+  font-weight: 600;
+  border-bottom: 1px solid #7264d6;
+}
+.header__action {
+  padding: 1.2rem 2.8rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  border-radius: 0.6rem;
+}
+.log-in {
+  color: var(--primary-color);
+  background: #fff;
+}
+.sign-up {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.hero {
+  display: flex;
+  margin-top: 7.6rem;
+}
+.hero-content {
+  margin-top: 5.7rem;
+}
+.hero__name {
+  color: #696d77;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+.hero__heading {
+  color: var(--primary-color);
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  margin-top: 1.2rem;
+}
+.hero__heading strong {
+  color: #7264d6;
+}
+.hero__desc {
+  margin-top: 2rem;
+}
+.hero__form {
+  position: relative;
+  margin-top: 4rem;
+}
+.hero__form--text {
+  border-radius: 0.8rem;
+  background: #fff;
+  box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.07);
+  padding: 2.3rem 21.6rem 2.3rem 2.3rem;
+  border: none;
+  width: 54rem;
+  font-size: 1.6rem;
+}
+.hero__form--text:focus {
+  outline: none;
+}
+.hero__form--text:placeholder-shown {
+  color: #696d76;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+.hero__form--submit {
+  position: absolute;
+  right: 0.8rem;
+  top: 0.8rem;
+}
+.hero__slogan {
+  color: #696d76;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.71; /* 171.429% */
+  margin-top: 2rem;
+}
