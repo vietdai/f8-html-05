@@ -89,12 +89,25 @@ a {
 }
 .hero-content {
   margin-top: 5.7rem;
+  max-width: 540px;
 }
 .hero__name {
+  position: relative;
   color: #696d77;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.75; /* 175% */
+  margin-left: 3rem;
+}
+.hero__name::before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  height: 0.2rem;
+  background: #696d77;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -3rem;
 }
 .hero__heading {
   color: var(--primary-color);
@@ -112,6 +125,7 @@ a {
 .hero__form {
   position: relative;
   margin-top: 4rem;
+  width: 100%;
 }
 .hero__form--text {
   border-radius: 0.8rem;
